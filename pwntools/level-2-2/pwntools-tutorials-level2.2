@@ -219,7 +219,7 @@ class ASMChallenge(ASMBase):
     name = "pwntools-tutorials-level2.2"
     init_rdx = 0
     init_rax = random.randint(0, 0x100000000)
-    init_rbx = random.randint(0, 0x100000000)
+    init_rbx = random.randint(1, 0x100000000)
     init_rcx = random.randint(0, 0x100000000)
     init_rsi = random.randint(0, 0x100000000)
     init_memory = {}
@@ -236,7 +236,8 @@ class ASMChallenge(ASMBase):
 
     def trace(self):
         self.start()
-        return (self.rax == self.init_rax % self.init_rbx + self.init_rcx - self.init_rsi)
+        expected = (self.init_rax % self.init_rbx + self.init_rcx - self.init_rsi) & 0xFFFFFFFFFFFFFFFF
+        return self.rax == expected
 
 def main():
     challenge = ASMChallenge()
