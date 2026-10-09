@@ -1,0 +1,19 @@
+name: 整数溢出
+
+challenges:
+
+  - id: teaching-level
+    name: 教学关卡
+    level: 2
+
+  - id: level-1-0
+    name: Level 1.0
+    level: 3
+
+  - id: level-1-1
+    name: Level 1.1
+    level: 4
+
+  - id: level-2-0
+    name: Level 2.0
+    level: 4
