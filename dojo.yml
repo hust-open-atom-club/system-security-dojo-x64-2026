@@ -7,7 +7,7 @@ type: course
 award:
   emoji: 0024_Arbok
 
-comparator: 9990
+comparator: 9987
 
 modules:
   - id: pwntools
