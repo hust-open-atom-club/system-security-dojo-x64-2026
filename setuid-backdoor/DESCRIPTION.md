@@ -4,7 +4,7 @@ SUID 允许任何拥有文件执行权限的用户，以当前文件所属者（
 
 ### 关卡等级分布
 
-- 教学管卡 ：利用设置了 SUID 的 /usr/bin/cat 命令读取 /flag
+- 教学关卡 ：利用设置了 SUID 的 /usr/bin/cat 命令读取 /flag
 - Level 1.1 ：利用设置了 SUID 的 /usr/bin/vim 命令读取 /flag
 - Level 1.2 ：利用设置了 SUID 的 /usr/bin/hexedit 命令读取 /flag
 - Level 2.0 ：理解 /usr/bin/rev 功能，并通过设置了 SUID 的该命令获取 /flag
