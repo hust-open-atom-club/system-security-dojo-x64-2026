@@ -5,14 +5,15 @@ Pwntools 是一个工具包（包含各种好用的小工具）与软件库，�
 ### 关卡等级分布
 
 - 教学关卡 ：利用 pwntools 生成特定输入绕过检查，并读取 /flag
+- Level 1.0 ：利用 pwntools 的 p64、p32、p16、p8 等 API 构造特定输入绕过检查，并读取 /flag
 - Level 1.1 ：利用 pwntools 生成特定输入绕过检查，并读取 /flag
-- Level 2.0 ：利用 pwtools asm 生成特定指令来设置特定寄存器，通过检查后获取 /flag
-- Level 2.1 ：利用 pwtools asm 生成特定指令来交换特定寄存器，通过检查后获取 /flag
-- Level 2.2 ：利用 pwtools asm 生成特定指令来计算特定公式，结果通过检查后获取 /flag
-- Level 2.3 ：利用 pwtools asm 生成特定指令来设置特定全局数据区域，通过检查后获取 /flag
-- Level 2.4 ：利用 pwtools asm 生成特定指令来设置特定栈内存区域，通过检查后获取 /flag
-- Level 2.5 ：利用 pwtools asm 利用 if 语句来计算特定公式，结果通过检查后获取 /flag
-- Level 2.6 ：利用 pwtools asm 利用 for 循环来计算特定公式，结果通过检查后获取 /flag
-- Level 3.0 ：利用 pwtools 循环生成特定输入绕过检查，并读取 /flag
+- Level 2.0 ：利用 pwntools asm 生成特定指令来设置特定寄存器，通过检查后获取 /flag
+- Level 2.1 ：利用 pwntools asm 生成特定指令来交换特定寄存器，通过检查后获取 /flag
+- Level 2.2 ：利用 pwntools asm 生成特定指令来计算特定公式，结果通过检查后获取 /flag
+- Level 2.3 ：利用 pwntools asm 生成特定指令来设置特定全局数据区域，通过检查后获取 /flag
+- Level 2.4 ：利用 pwntools asm 生成特定指令来设置特定栈内存区域，通过检查后获取 /flag
+- Level 2.5 ：利用 pwntools asm 利用 if 语句来计算特定公式，结果通过检查后获取 /flag
+- Level 2.6 ：利用 pwntools asm 利用 for 循环来计算特定公式，结果通过检查后获取 /flag
+- Level 3.0 ：利用 pwntools 循环生成特定输入绕过检查，并读取 /flag
 
 除此之外，pwntools 还有一些其他功能，如 ELF 解析（ELF CrackME 关卡会用到），cyclic（缓冲区溢出关卡会用到）以及 GDB 调试等。

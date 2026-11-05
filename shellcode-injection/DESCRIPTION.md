@@ -7,6 +7,7 @@
 - 教学关卡 ：本关卡需掌握基于 pwntools 构造的 shellcode 的编写方法
 - Level 1.1 ：本关卡需掌握重复宏汇编的shellcode的编写方法
 - Level 2.0 ：本关卡需掌握栈赋值的shellcode的编写方法
+- Level 2.1 ：本关卡需掌握绕过 H 字符（0x48，x86-64 REX 前缀）过滤的 shellcode 的编写方法
 - Level 3.0 ：本关卡需掌握可见字符的 shellcode 的编写方法
 - Level 3.1 ：本关卡需掌握敏感字符绕过的 shellcode 的编写方法
 - Level 3.2 ：本关卡需掌握读取 /flag 的 shellcode 的编写方法
